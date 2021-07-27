@@ -3,7 +3,7 @@
   # 'N The Loop
 
 <p align="center">
-    <img src="./docs/N' The Loop (2).png" width="450"/>
+    <img src="./docs/sum-removebg-preview.png" width="450"/>
 </p>
 <h1 align ="center">Algorithms and data structures</h1>
 <p align="center">A project to help prepare for the technical interview.</p>
