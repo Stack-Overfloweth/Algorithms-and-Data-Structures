@@ -1,7 +1,5 @@
 #Algorithms-and-data-structures
 
-  # 'N The Loop
-
 <p align="center">
     <img src="./docs/sum-removebg-preview.png" width="450"/>
 </p>
