@@ -31,10 +31,10 @@ If you wish to work alone then I suggest forking and cloning this repo.  Note th
 <table align="center">
   <tr>
     <td valign="top"> <img src="./docs/ericprofile.jpeg" width="250"/></td>
-    <td valign="top"> <img src="./docs/sergeyprof.jpeg" width="250"/></td>
-    <td valign="top"> <img src="./docs/camerongit.jpeg" width="250"/></td>
-    <td valign="top"> <img src="./docs/its raining.jpg" width="250"/></td>
-    <td valign="top"> <img src="./docs/Github_Profile_Pic.jpg" width="250"/></td>
+    <td valign="top"> <img src="./docs/charlieprofile.png" width="250"/></td>
+    <td valign="top"> <img src="./docs/cameronprofile.jpeg" width="250"/></td>
+    <td valign="top"> <img src="./docs/ianprofile.jpg" width="250"/></td>
+    <td valign="top"> <img src="./docs/miklosprofile.jpg" width="250"/></td>
   </tr>
   <tr>
       <td valign="top"><h2 align="center">Eric Saldivar</h2></td>
