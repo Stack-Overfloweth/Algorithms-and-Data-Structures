@@ -1,4 +1,7 @@
-const isPalindrome = require('../Strings/Easy/stringsE');
+const {isPalindrome} = require('../Strings/Easy/stringsE');
+const {firstNonRepeatingCharacter} = require('../Strings/Easy/stringsE')
+
+console.log(isPalindrome)
 
 describe('Palindrome tests', () =>{
 
@@ -8,6 +11,18 @@ describe('Palindrome tests', () =>{
 
 	it('apple is not a palindrome', () => {
 		expect(isPalindrome('apple')).toBe(false);
+	});
+
+});
+
+describe('1st non-repeating character tests', () =>{
+
+	it('abcdcaf with b (index of 1) being the first non-repeating character', () => {
+		expect(firstNonRepeatingCharacter('abcdcaf')).toBe(1);
+	});
+
+	it('ababacc with index of -1 as all characters repeat at least one time', () => {
+		expect(firstNonRepeatingCharacter('ababacc')).toBe(-1);
 	});
 
 });

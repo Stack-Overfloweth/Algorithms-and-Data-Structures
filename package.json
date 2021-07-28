@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Stack-Overfloweth/Algorithms-and-Data-Structures#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "eslint": "^7.31.0",
+    "eslint-plugin-jest": "^24.4.0",
     "jest": "^27.0.6"
   }
 }
