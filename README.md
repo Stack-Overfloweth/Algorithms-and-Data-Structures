@@ -9,11 +9,11 @@
 
 <h2 align="center">Table of Contents</h2>
 
-* [Wireframe](https://github.com/UggBoots/scratch-concert-finder/#Wireframe)
-* [Contributors](https://github.com/UggBoots/scratch-concert-finder/#Contributors)
-* [License](https://github.com/UggBoots/scratch-concert-finder/#License)
+* [Instructions](https://github.com/Stack-Overfloweth/Algorithms-and-Data-Structures/#Instructions)
+* [Contributors](https://github.com/Stack-Overfloweth/Algorithms-and-Data-Structures/#Contributors)
+* [License](https://github.com/Stack-Overfloweth/Algorithms-and-Data-Structures/#License)
 
-<h2 href="#Wireframe" >Instructions</h2>
+<h2 href="#Instructions" >Instructions</h2>
 <p>
   This is a repository to help with algorithms and data structures.  This repository is intended for group work and pair programming.  There will be algorithms sorted in folders based on their data type or data structure.  The is a test suite that you can run with:
     
