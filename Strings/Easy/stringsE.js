@@ -9,21 +9,6 @@ fizzbuzz(16);
 */
   const fizzbuzz = num => {
     // Write your code here.
-	const resArr = [];
-	let count = 1;
-	while(count <= num){
-		if(count % 3 === 0 && count % 5 === 0 ){
-			resArr.push('fizzbuzz');
-		} else if (count % 3 === 0) {
-			resArr.push('fizz');
-		} else if (count % 5 === 0 ){
-			resArr.push('buzz');
-		} else {
-			resArr.push(count);
-		}
-		count++;
-	}
-	return resArr;
   };
 
 /*
