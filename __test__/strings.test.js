@@ -13,6 +13,10 @@ describe('Palindrome tests', () =>{
 		expect(isPalindrome('apple')).toBe(false);
 	});
 
+	it('s is a palindrome', () => {
+		expect(isPalindrome('s')).toBe(true);
+	});
+
 });
 
 describe('1st non-repeating character tests', () =>{
