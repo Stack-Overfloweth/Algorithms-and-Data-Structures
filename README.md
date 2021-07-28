@@ -14,7 +14,7 @@
 * [License](https://github.com/UggBoots/scratch-concert-finder/#License)
 
 <h2 href="#Wireframe" >Instructions</h2>
-<p align="center">
+<p>
   This is a repository to help with algorithms and data structures.  This repository is intended for group work and pair programming.  There will be algorithms sorted in folders based on their data type or data structure.  The is a test suite that you can run with:
     
 npm test
