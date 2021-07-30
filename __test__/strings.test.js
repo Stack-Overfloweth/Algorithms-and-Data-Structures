@@ -1,6 +1,6 @@
 const {fizzbuzz} = require('../Strings/Easy/stringsE');
 const {isPalindrome} = require('../Strings/Easy/stringsE');
-const {firstNonRepeatingCharacter} = require('../Strings/Easy/stringsE')
+const {firstNonRepeatingCharacter} = require('../Strings/Medium/stringsM')
 
 
 describe('Fizzbuzz tests', () =>{
