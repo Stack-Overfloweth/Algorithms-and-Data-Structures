@@ -1,3 +1,3 @@
 
 
-<img src="firstNonRepeatSol.png" width=800 />
+<img src="firstNonRepeatSol.png" width=1000 />
