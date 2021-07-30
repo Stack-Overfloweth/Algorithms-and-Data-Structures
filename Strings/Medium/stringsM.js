@@ -7,34 +7,9 @@ If the input string doesn't have any non-repeating characters, your function sho
 */
 
 // const firstNonRepeatingCharacter = (string) => {
-//   // Write your code here.
-//   const stringArray = string.split('');
-//   let index = -1;
-//   const cache = stringArray.reduce((obj, letter) => {
-//     obj[letter] ? obj[letter] += 1 : obj[letter] = 1;
-//     return obj;
-//   }, {})
-//   for(let key in cache){
-//     if(cache[key] < 2){
-//       index = stringArray.indexOf(key);
-//       break;
-//     }
-//   }
-//   return index;
-// };
+  // Write your code here.
 
-
-function firstNonRepeatingCharacter(str) {
-  for (let i = 0; i < str.length; i++) {
-    let char = str[i];
-  
-    if (str.indexOf(char) == i && str.indexOf(char, i + 1) == -1) {
-      return i;
-    }
-  }
-  return -1;
-}
-
+ };
 
 
 
