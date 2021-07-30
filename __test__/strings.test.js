@@ -1,3 +1,4 @@
+
 const {fizzbuzz} = require('../Strings/Easy/stringsE')
 const {isPalindrome} = require('../Strings/Easy/stringsE');
 const {firstNonRepeatingCharacter} = require('../Strings/Medium/stringsM')
@@ -6,9 +7,11 @@ xdescribe(`Fizzbuzz tests`, () =>{
 
 	it(`16 should return [1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz',
 	11, 'fizz', 13, 14, 'fizzbuzz', 16]`, () => {
+
 		expect(fizzbuzz(16)).toStrictEqual([1, 2, 'fizz', 4, 'buzz', 'fizz', 7, 8, 'fizz', 'buzz',
 		11, 'fizz', 13, 14, 'fizzbuzz', 16]);
 	});
+
 
 	it(`2 should return [1, 2]`, () => {
 		expect(fizzbuzz(2)).toStrictEqual([1, 2]);
@@ -19,10 +22,6 @@ xdescribe(`Fizzbuzz tests`, () =>{
 	});
 
 });
-
-
-
-
 
 
 describe('Palindrome tests', () =>{
