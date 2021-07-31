@@ -1,5 +1,5 @@
-const { twoSum, threeSum } = require('../Arrays/Easy/arraysE');
-
+const { twoSum} = require('../Arrays/Easy/arraysE');
+const {threeSum} = require('../Arrays/Medium/arraysM');
 describe('twoSum test', () => {
   let arr;
 
