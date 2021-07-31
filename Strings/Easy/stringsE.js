@@ -58,7 +58,7 @@ drawStairs(6) ->
 */
 
 const drawStairs = n => {
-
+// Write your code here.
 };
 
 
