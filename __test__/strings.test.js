@@ -1,5 +1,5 @@
 
-const {fizzbuzz, isPalindrome, binToDec} = require('../Strings/Easy/stringsE')
+const {fizzbuzz, isPalindrome, binToDec, drawStairs} = require('../Strings/Easy/stringsE')
 const {firstNonRepeatingCharacter} = require('../Strings/Medium/stringsM')
 
 xdescribe(`Fizzbuzz tests`, () =>{
@@ -65,3 +65,50 @@ describe('binToDec test', ()=>{
 	  expect(binToDec('0000000010101')).toBe(21);
 	})
   });
+
+  describe('drawStairs test', () => {
+	let logOutput;
+
+	beforeAll(() => {
+		console.nativeLog = console.log;
+		console.log = (...args) => logOutput += args.join('') + '\n';
+	});
+
+	beforeEach(() => logOutput = '');
+
+	afterAll(() => console.log = console.nativeLog);
+
+  describe('positive height n', () => {
+		it('should draw correct stairs for n = 1', () => {
+			drawStairs(1);
+			expect(logOutput).toBe(`*\n`);
+		});
+		it('should draw correct stairs for n = 2', () => {
+			drawStairs(2);
+			expect(logOutput).toBe(` *\n**\n`);
+		});
+		it('should draw correct stairs for n = 3', () => {
+			drawStairs(3);
+			expect(logOutput).toBe(`  *\n **\n***\n`);
+		});
+		it('should draw correct stairs for n = 4', () => {
+			drawStairs(4);
+			expect(logOutput).toBe(`   *\n  **\n ***\n****\n`);
+		});
+		it('should draw correct stairs for n = 5', () => {
+			drawStairs(5);
+			expect(logOutput).toBe(`    *\n   **\n  ***\n ****\n*****\n`);
+		});
+	});
+
+	describe('non-positive height n', () => {
+		it('should draw no stairs for n = 0', () => {
+			drawStairs(0);
+			expect(logOutput).toBe(``);
+		});
+		it('should draw no stairs for n = -100', () => {
+			drawStairs(-100);
+			expect(logOutput).toBe(``);
+		});
+	});
+});

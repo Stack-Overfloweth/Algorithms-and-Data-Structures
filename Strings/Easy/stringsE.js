@@ -40,6 +40,26 @@ function binToDec(binString){
   // Write your code here.
 }
 
+/* 
+Write a function that logs to the console an nxn representation of a staircase for any 
+given nonnegative height, n. If the passed-in height is negative, console log an empty string.
+The staircase must climb up from left to right. Each level of stairs logs a string of
+asterisks and/or leading spaces. Note that the last stair should only consist of 
+asterisks without any leading spaces.
+ 
+For example:     
+drawStairs(6) ->          
+     *
+    **
+   ***
+  ****
+ *****
+******
+*/
+
+const drawStairs = n => {
+
+};
 
 
 module.exports = {binToDec};
@@ -47,4 +67,4 @@ module.exports = {binToDec};
 
 // Do not edit the line below.
 
-module.exports = { fizzbuzz, isPalindrome, binToDec };
+module.exports = { fizzbuzz, isPalindrome, binToDec, drawStairs };
