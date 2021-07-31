@@ -1,4 +1,4 @@
-const {twoSum, duplicateNumber, duplicateNumberAdvanced} = require('../Arrays/Easy/arraysE');
+const {twoSum, duplicateNumber, mode, reverseArray,duplicateNumberAdvanced} = require('../Arrays/Easy/arraysE');
 const {threeSum, highestProfit} = require('../Arrays/Medium/arraysM');
 describe('twoSum test', () => {
   let arr;
@@ -79,6 +79,56 @@ describe('duplicateNumber test', () => {
 	  expect(duplicateNumber(arr)).toBe(3);
 	})
   })
+
+  describe('mode test', () => {
+	let arr;
+	it('handles an array of only one (repeated) number', () => {
+	  arr = [3];
+	  expect(mode(arr)).toBe(3);
+	  
+	  arr = [-7, -7, -7];
+	  expect(mode(arr)).toBe(-7);
+	  
+	  arr = [0, 0, 0, 0];
+	  expect(mode(arr)).toBe(0);
+	});
+	
+	it('handles an array with an obvious mode', () => {
+	  arr = [1, 6, 7, 5, 8, 8, 10, 6, 10, 4, 6, 11];
+	  expect(mode(arr)).toBe(6);
+	});
+	
+	it('chooses the max for an array with several modes', () => {
+	  arr = [12, 5, 32, 4];
+	  expect(mode(arr)).toBe(32);
+	  arr = [3, 1, 1, 1, 3, 7, 3, 3, 1];
+	  expect(mode(arr)).toBe(3);
+	});
+  });
+
+  describe('reverseArray test', () => {
+	let arr, reversed;
+	it('returns the same array in memory', () => {
+	  arr = [];
+	  expect(reverseArray(arr)).toBe(arr);
+	  arr = [1, 2, 4];
+	  expect(reverseArray(arr)).toBe(arr);
+	});
+	
+	it('reverses the elements of the array', () => {
+	  arr = [6];
+	  reversed = [6];
+	  expect(reverseArray(arr.slice())).toEqual(reversed);
+	  
+	  arr = [1, 2, 4];
+	  reversed = [4, 2, 1];
+	  expect(reverseArray(arr.slice())).toEqual(reversed);
+	  
+	  arr = [1, 2, 4, 5];
+	  reversed = [5, 4, 2, 1];
+	  expect(reverseArray(arr.slice())).toEqual(reversed);
+	});
+  });
   
   xdescribe('duplicateNumberAdvanced test', () => {
 	let arr;

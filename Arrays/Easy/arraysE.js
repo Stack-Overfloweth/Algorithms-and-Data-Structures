@@ -27,6 +27,30 @@ const duplicateNumber = array => {
   // Write your code here.
 };
 
+/*
+Given an array of numbers (integers), return the mode, that is, the number that
+appears most often. If there are multiple modes, use the max of the modes.
+Assume that at least one number is present in the array.
+e.g.
+mode([3, 2, 4, 3]) -> 3
+mode([7, 5, 8, 8, 2, 5]) -> 8
+*/
+
+const mode = array => {
+  // Write your code here.
+};
+
+/*
+Reverse and return an array in-place. Do not create a new array in memory.
+Instead, modify the array as given. Do not use the array reverse method built in
+to the array prototype while solving the problem.
+*/
+
+const reverseArray = array => {
+  // Write your code here.
+};
+
+/*
 
 /* 
 You have an unsorted array of n + 1 numbers, with the range of k to k + n - 1, with an extra number that is a duplicate.
@@ -38,4 +62,4 @@ const duplicateNumberAdvanced = array => {
   // Write your code here.
 };
 
-module.exports = {twoSum, duplicateNumber, duplicateNumberAdvanced };
+module.exports = {twoSum, duplicateNumber, mode, reverseArray, duplicateNumberAdvanced };
