@@ -6,7 +6,7 @@ The first non-repeating character is the first character in a string that occurs
 If the input string doesn't have any non-repeating characters, your function should return -1.
 */
 
-// const firstNonRepeatingCharacter = (string) => {
+ const firstNonRepeatingCharacter = (string) => {
   // Write your code here.
 
  };
