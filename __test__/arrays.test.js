@@ -1,4 +1,4 @@
-const {twoSum, duplicateNumber, mode, reverseArray,duplicateNumberAdvanced} = require('../Arrays/Easy/arraysE');
+const {twoSum, duplicateNumber, mode, reverseArray, retrieveDepth,duplicateNumberAdvanced} = require('../Arrays/Easy/arraysE');
 const {threeSum, highestProfit} = require('../Arrays/Medium/arraysM');
 describe('twoSum test', () => {
   let arr;
@@ -127,6 +127,14 @@ describe('duplicateNumber test', () => {
 	  arr = [1, 2, 4, 5];
 	  reversed = [5, 4, 2, 1];
 	  expect(reverseArray(arr.slice())).toEqual(reversed);
+	});
+  });
+
+  describe('retrieveDepth test', () => {
+	it('retieves values less than or equal to a certain depth', () => {
+	  expect(retrieveDepth([2, [4, [7], 1], 5], 1)).toEqual([2, 5]);
+	  expect(retrieveDepth([2, [4, [7], 1], 5], 2)).toEqual([2, 4, 1, 5]);
+	  expect(retrieveDepth([2, [4, [7], 1], 5], 3)).toEqual([2, 4, 7, 1, 5]);
 	});
   });
   
