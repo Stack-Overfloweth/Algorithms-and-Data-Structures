@@ -1,6 +1,5 @@
 
-const {fizzbuzz} = require('../Strings/Easy/stringsE')
-const {isPalindrome} = require('../Strings/Easy/stringsE');
+const {fizzbuzz, isPalindrome, binToDec} = require('../Strings/Easy/stringsE')
 const {firstNonRepeatingCharacter} = require('../Strings/Medium/stringsM')
 
 xdescribe(`Fizzbuzz tests`, () =>{
@@ -54,3 +53,15 @@ describe('1st non-repeating character tests', () =>{
 	});
 
 });
+
+
+describe('binToDec test', ()=>{
+	it('Should return correct conversion', ()=>{
+	  expect(binToDec('101')).toBe(5);
+	  expect(binToDec('11111100100')).toBe(2020);
+	});
+  
+	it('Should ignore leading zeroes', ()=>{
+	  expect(binToDec('0000000010101')).toBe(21);
+	})
+  });

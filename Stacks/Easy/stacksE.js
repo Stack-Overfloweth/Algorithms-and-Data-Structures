@@ -25,7 +25,7 @@
  */
 
 const balancedParens = input => {
-	//insert code below
+	// Write your code here.
 };
 
 module.exports = { balancedParens} ;
