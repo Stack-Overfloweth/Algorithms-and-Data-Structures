@@ -14,13 +14,13 @@
 * [License](https://github.com/Stack-Overfloweth/Algorithms-and-Data-Structures/#License)
 
 <h2 href="#Instructions" >Instructions</h2>
-<p align="center">
+<p>
   This is a repository to help with algorithms and data structures.  This repository is intended for group work and pair programming.  There will be algorithms sorted in folders based on their data type or data structure.  The is a test suite that you can run with:
  </p>   
 <p align="center"><strong >npm test testfilename</strong></p>
 
 <p align="center"><strong >example: npm test arrays</strong></p>
- <p align="center">   
+ <p>   
 If a test isn't running for an algorithm then you probably need to remove the x in front of the describe.
     
 We will eventually post links and pictures on how to solve particular algorithms in the associated READMEs in each folder. Make sure to only attempt algorithms and write in the READMEs your approach on the <span><strong> solutions branch </strong></span> 
