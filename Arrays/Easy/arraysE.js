@@ -92,6 +92,10 @@ minMax([1]) ➞ [1, 1]
 
 const minMax = array => {
   // Write your code here.
+
 }
+
+
+
 
 module.exports = {twoSum, duplicateNumber, mode, reverseArray, retrieveDepth, duplicateNumberAdvanced, minMax };
