@@ -14,26 +14,7 @@
 
 const twoSum = (arr, target) => {
   // Write your code here.
-  // init obj to store visited numbers in the array
-  let cache = {};
-
-  for (let i = 0; i < arr.length; i++) {
-    // diff variable stores the difference between the target and arr at the index
-    let diff = target - arr[i];
-
-    // if the cache obj contains the diff, return true
-    if (cache[diff]) {
-      return true;
-    } else {
-      // else store the visited number in obj
-      cache[arr[i]] = true;
-    }
-  }
-  return false;
 };
-
-const num = [1, 4, 7, 2, 9, 0];
-console.log(twoSum(num, 7)); //-> true
 
 /*
 You have an unsorted array of n + 1 numbers, with the numbers from 1 to n.
